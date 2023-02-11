@@ -1,0 +1,13 @@
+@page  {
+    size: auto;
+    margin: 5mm;
+}
+
+body{
+    margin: 0;
+}
+
+div.title > h1{
+    color: green;
+}
+
