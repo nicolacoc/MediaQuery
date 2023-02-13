@@ -3,6 +3,10 @@
     margin: 5mm;
 }
 
+:root{
+    -webkit-print-color-adjust: exact;
+}
+
 body{
     margin: 0;
 }
