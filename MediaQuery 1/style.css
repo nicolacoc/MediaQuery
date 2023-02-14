@@ -28,7 +28,10 @@ h2{
     margin: .9em 0 0 0;
 }
 
+
+
 figure{
+    min-width: 235px;
     background-color: black;
     border-radius: .4em;
     color: white;
@@ -69,10 +72,13 @@ figure{
     margin-right: 1.5em;
     width: calc(50% - 1.5em);
     float: left;
+
 }
 
 .kittens{
     margin-right: -1.5em;
+
+
 }
 
 .kittens::after{
@@ -100,5 +106,14 @@ figure{
         width: calc(30% - 1.5em);
         float: left;
     }
+    .kittens figure:nth-child(4n),
+    .kittens figure:first-child{
+        margin-left: 3em;
+    }
+    .kittens figure:nth-child(3n){
+        margin-right: 3em;
+    }
+
+
 
 }
