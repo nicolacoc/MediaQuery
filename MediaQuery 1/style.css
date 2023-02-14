@@ -95,4 +95,10 @@ figure{
         background-color: white;
     }
 
+    figure{
+        margin-right: 1.5em;
+        width: calc(30% - 1.5em);
+        float: left;
+    }
+
 }
