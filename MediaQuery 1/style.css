@@ -28,7 +28,7 @@ h2{
     margin: .9em 0 0 0;
 }
 
-figure{ /* mettiamoci d'accordo sul selettore... più in basso usi .kittens figure ... questo può provocare comportamenti imprevisti */
+.kittens figure{ /* mettiamoci d'accordo sul selettore... più in basso usi .kittens figure ... questo può provocare comportamenti imprevisti */
     min-width: 235px;
     background-color: black;
     border-radius: .4em;
@@ -107,7 +107,6 @@ figure:hover{
 
     .kittens figure{
         margin-top: 0;
-        margin-bottom: 1em;
         margin-right: 1em;
         margin-left: 0;
         width: calc(33.3% - .66em); /* Più la metà di margin-right + 1 terzo della metà (0.16 periodico).. */
